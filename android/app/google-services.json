@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1072948917927",
+    "project_id": "app-lista-tarefas-engsof-af7ea",
+    "storage_bucket": "app-lista-tarefas-engsof-af7ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072948917927:android:b3960a14000965b1c30d82",
+        "android_client_info": {
+          "package_name": "com.example.app08"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6pFEsuyNQJiRRlqCp1BFheZtA7IClJ_c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
