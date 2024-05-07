@@ -19,6 +19,9 @@ class _LoginViewState extends State<LoginView> {
   @override
   void initState() {
     super.initState();
+
+    txtEmail.text = 'joao.silva@email.com';
+    txtSenha.text = '123456';
   }
 
   @override
@@ -30,7 +33,7 @@ class _LoginViewState extends State<LoginView> {
           children: [
             Text(
               'Login',
-              style: TextStyle(fontSize: 60),
+              style: TextStyle(fontSize: 60, color: Colors.blue.shade900),
             ),
             SizedBox(height: 60),
             TextField(
@@ -85,7 +88,6 @@ class _LoginViewState extends State<LoginView> {
                             },
                             child: Text('cancelar'),
                           ),
-                          
                           ElevatedButton(
                             onPressed: () {
                               //
@@ -99,7 +101,6 @@ class _LoginViewState extends State<LoginView> {
                             },
                             child: Text('enviar'),
                           ),
-
                         ],
                       );
                     },
