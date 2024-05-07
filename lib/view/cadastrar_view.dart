@@ -72,6 +72,7 @@ class _CadastrarViewState extends State<CadastrarView> {
                     minimumSize: Size(140, 40),
                   ),
                   onPressed: () {
+                   
                     LoginController().criarConta(
                       context,
                       txtNome.text,

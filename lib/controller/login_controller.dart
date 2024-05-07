@@ -13,7 +13,8 @@ class LoginController {
         .createUserWithEmailAndPassword(
       email: email,
       password: senha,
-    ).then(
+    )
+        .then(
       (resultado) {
         //Usuário criado com sucesso!
 
@@ -24,7 +25,6 @@ class LoginController {
             "nome": nome,
           },
         );
-
         sucesso(context, 'Usuário criado com sucesso!');
         Navigator.pop(context);
       },
@@ -50,10 +50,8 @@ class LoginController {
     FirebaseAuth.instance
         .signInWithEmailAndPassword(email: email, password: senha)
         .then((resultado) {
-          
       sucesso(context, 'Usuário autenticado com sucesso!');
       Navigator.pushNamed(context, 'principal');
-
     }).catchError((e) {
       switch (e.code) {
         case 'invalid-email':
